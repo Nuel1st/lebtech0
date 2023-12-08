@@ -13,7 +13,6 @@ Pillow==10.1.0
 pycparser==2.21
 Pygments==2.17.1
 pythonnet==3.0.3
-pywin32==306
 requests==2.31.0
 sqlparse==0.4.4
 toga==0.4.0
