@@ -8,7 +8,7 @@ docutils==0.20.1
 gunicorn==21.2.0
 idna==3.4
 importlib-metadata==6.8.0
-libgirepository1.0-dev
+
 packaging==23.2
 Pillow==10.1.0
 pycparser==2.21
