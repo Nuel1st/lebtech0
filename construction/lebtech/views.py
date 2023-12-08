@@ -14,6 +14,9 @@ def contact(request):
 def detail(request):
     return render(request, 'detail.html')
 
+def service(request):
+    return render(request, 'service.html')
+
 def project(request):
     return render(request, 'project.html')
 
