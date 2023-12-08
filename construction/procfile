@@ -1,1 +1,6 @@
 web: gunicorn construction.wsgi --log-file -
+
+web: python manage.py runserver 0.0.0.0:$PORT
+post_compile: |
+  echo "Removing unnecessary dependencies"
+  pip uninstall -y pygobject
