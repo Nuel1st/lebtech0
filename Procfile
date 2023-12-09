@@ -1,3 +1,1 @@
-web: gunicorn construction.wsgi  --logs file -
-
-
+web: gunicorn construction.wsgi --log-file -
