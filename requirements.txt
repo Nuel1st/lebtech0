@@ -5,7 +5,7 @@ charset-normalizer==3.3.2
 clr-loader==0.2.6
 Django==4.2.7
 docutils==0.20.1
-gunicorn==21.2.0
+gunicorn-21.2.0
 idna==3.4
 importlib-metadata==6.8.0
 packaging==23.2
