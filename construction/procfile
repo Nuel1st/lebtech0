@@ -1,4 +1,4 @@
-web: gunicorn construction.wsgi --log-file -
+web:gunicorn construction.wsgi --log-file -
 
 web: python manage.py runserver 0.0.0.0:$PORT
 post_compile: |
