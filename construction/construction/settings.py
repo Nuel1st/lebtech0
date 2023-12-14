@@ -32,6 +32,7 @@ ALLOWED_HOSTS = ['lebtech0-3b4e3b0166c4.herokuapp.com', '127.0.0.1', 'lebtech.lt
 # Application definition
 
 INSTALLED_APPS = [
+    'whitenoise.runserver_nostatic',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
