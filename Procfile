@@ -1,2 +1,2 @@
-web: gunicorn construction.wsgi:application =python 3.11
+web: gunicorn construction.wsgi
 
